@@ -5,9 +5,9 @@
     <nav>{% include nav.html %}</nav>
     <div class="wrapper">
       <main>{{ content }}</main>
+      <hr>{% include notes_graph.html %}<hr>
       <footer>{% include footer.html %}</footer>
     </div>
-
     {% include link-previews.html wrapperQuerySelector="content" %}
   </body>
 </html>

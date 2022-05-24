@@ -1,22 +1,7 @@
 ---
 layout: page
-title: Home
+title: RadiantGrove's Digital Garden
 id: home
 permalink: /
 ---
-
-# Welcome! 🌱
-
-<p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
-</p>
-
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
-
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
-
-<style>
-  .wrapper {
-    max-width: 46em;
-  }
-</style>
+This is my [[Digital Garden]]. You likely want my blog [radiantgrove.com](https://radiantgrove.com). These notes are artifacts of my personal [[Zettelkasten]]. They are rough, change frequently, non-chronological, anti-performative, and exist for my own knowledge and thinking. If you find them useful, great!

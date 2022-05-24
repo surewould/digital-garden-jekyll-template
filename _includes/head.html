@@ -9,8 +9,10 @@
 
   <meta property="og:site_name" content="{{ site.title }}">
 
-  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
 
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
 
   {% if page.excerpt %}
@@ -42,7 +44,7 @@
     {% if page.id == "home" %}
       {{ site.title }}
     {% else %}
-      {{ page.title }} &mdash; {{ site.title }}
+      {{ page.title }} | {{ site.title }}
     {% endif %}
   </title>
 </head>
