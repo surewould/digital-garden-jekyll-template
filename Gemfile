@@ -10,3 +10,7 @@ gem "webrick", "~> 1.7"
 gem "nokogiri"
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'eventmachine', github: 'eventmachine/eventmachine'
+
+group :jekyll_plugins do
+  gem 'liquid_reading_time'
+end

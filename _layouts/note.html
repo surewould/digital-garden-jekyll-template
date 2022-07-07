@@ -9,6 +9,7 @@ layout: default
       Last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}
       {% endif %}
     </time>
+    <readingtime>{% capture time %}{{ page.content | reading_time }}{% endcapture %}</readingtime>
   </div>
 
   <div id="notes-entry-container">
